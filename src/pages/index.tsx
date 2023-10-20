@@ -12,7 +12,7 @@ export default function Home() {
     Coordinates | undefined
   >(undefined);
   const accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
-
+  console.log(accessToken);
   // useEffect(() => {
   //   if ("geolocation" in navigator) {
   //     navigator.geolocation.getCurrentPosition((position) => {
